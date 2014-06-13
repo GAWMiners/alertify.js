@@ -1,0 +1,44 @@
+{
+  "name": "alertify.js",
+  "version": "0.0.0",
+  "description": "Alertify.js with CommonJS support. Based on Alertify by Fabien Doiron.",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~1.0.2"
+  },
+  "devDependencies": {
+    "tape": "~2.13.3",
+    "testling": "~1.6.1"
+  },
+  "scripts": {
+    "test": "testling `pwd`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GAWMiners/alertify.js"
+  },
+  "keywords": [
+    "alerts",
+    "browserify",
+    "commonjs"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GAWMiners/alertify.js/issues"
+  },
+  "homepage": "https://github.com/GAWMiners/alertify.js",
+  "testling": {
+    "files": [
+      "test/main.js"
+    ],
+    "browsers": [
+      "safari/latest",
+      "chrome/latest",
+      "ie/9..10",
+      "firefox/latest",
+      "opera/11",
+      "opera/next"
+    ]
+  }
+}
