@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "description": "Alertify.js with CommonJS support. Based on Alertify by Fabien Doiron.",
   "main": "index.js",
-  "dependencies": {
-    "debug": "~1.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~2.13.3",
     "testling": "~1.6.1"
